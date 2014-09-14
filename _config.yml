@@ -1,0 +1,58 @@
+url: http://localhost:4000
+baseurl:
+
+# Site settings
+title: Hacktech
+email: contact@hacktech.io
+description: "The Largest Hackathon on the West Coast."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: ff8400
+  secondary: ff8400
+  secondary-dark: 000
+
+# Speaker names, titles and social links
+people:
+- name: Childish Gambino
+  pic: 1
+  position: Rap Artist, Actor, Producer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+
+- name: Evan Spiegel
+  pic: 2
+  position: CEO Snapchat
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+
+- name: Jermaine Dupri
+  pic: 3
+  position: Rap Artist
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/thehacktech
+  - title: facebook
+    url: http://facebook.com/thehacktech
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 1200 East California Boulevard
+  - line: Pasadena, CA 91126
+
+# Build settings
+markdown: kramdown
+permalink: pretty
